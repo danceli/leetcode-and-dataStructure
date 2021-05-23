@@ -1,5 +1,5 @@
 public class Fibonacci {
-    //动态规划
+    //动态规划dp
     public static int fibonacci(int n) {
         int[] dp = new int[n + 1];
         dp[0] = 0;          //动态规划初始状态
