@@ -1,7 +1,7 @@
 import java.util.List;
 
-public class Triangle120 { 
-    //动态规划
+public class Triangle120 {
+
     public int minimumTotal(List<List<Integer>> triangle) {
         int n = triangle.size();
         //dp[i][j]表示从(i, j)到底边的最小路径和
